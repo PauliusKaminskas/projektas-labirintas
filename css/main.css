@@ -8,38 +8,57 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
 }
-main {
+.container {
     display: inline-block;
     background-color: #fff;
-    --w: 800px;
+    --w: 900px;
     width: var(--w);
     margin: 80px calc((100% - var(--w)) / 2);
-    height: 350px;
+    height: 500px;
 }
-main > img {
+.labyrinth {
     float: left;
-    width: 40%;
-    margin: 45px 10px 45px 80px;
-    width: 200px;
+    width: 270px;
+    margin: 70px 10px 0 100px;
     height: auto;
 }
 
-main > p {
+.exit {
     float: right;
     margin: 5px 10px 0 0;
 }
-main > div {
-    margin: 50px 50px 50px 20px;
+.content {
+    margin: 90px 80px 0 0;
     float: right;
-    width: 40%;
+    width: 300px;
 }
 h1 {
-    font-size: 130px;
+    font-size: 150px;
     color: #008000;
-    font-family: Arial, Helvetica, sans-serif;
 }
-main div p:nth-of-type(1) {
+.text-above {
     color: #008000;
     text-align: justify;
+    font-size: 16px;
+}
+.text-below {
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 20px;
+}
+.btn {
+    background-color: #008000;
+    padding: 20px 40px;
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    box-shadow: 0px 5px 10px 0px #008000;
+}
+.btn:hover {
+    transform: translateY(5px);
+    box-shadow: 5px 5px 30px 0px #008000;
 }
