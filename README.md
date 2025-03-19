@@ -8,24 +8,18 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://github.com/PauliusKaminskas/54-grupe-astronautas
+Site published at: https://github.com/PauliusKaminskas/projektas-labirintas
 
-Design: https://dribbble.com/shots/5964475-404-Lost-in-Space
+Design:
 
 ## 🎯 Project features/goals
 
 -   Github pages
 -   big screen only (no responsive design)
 -   fixed width and in the center of the screen
--   social icons (FontAwesome)
--   Google Fonts
 -   favicon
 -   advanced css selectors
--   copyright symbol
--   button: user select none
 -   button: hover state
--   main nav: hover state
--   main nav: selected menu option
 
 ## 🧰 Getting Started
 
@@ -49,7 +43,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/PauliusKaminskas/54-grupe-astronautas
+    git clone https://github.com/PauliusKaminskas/projektas-labirintas
     ```
 2. Install NPM packages
     ```sh
