@@ -28,6 +28,8 @@ body {
 .exit {
     float: right;
     margin: 5px 10px 0 0;
+    font-size: 30px;
+    color: gray;
 }
 .content {
     margin: 90px 80px 0 0;
